@@ -16,7 +16,7 @@ joe = Passenger.new("Joe")
 simone = Passenger.new("Simone")
 hanjoo = Passenger.new("Hanjoo")
 
-Ride.new(max, leo, 3)
+ride1 = Ride.new(max, leo, 3)
 Ride.new(max, leo, 4)
 Ride.new(max, joe, 95.3)
 Ride.new(bob, leo, 50)
