@@ -17,7 +17,7 @@ class Driver
             ride.driver == self
         end.map do |ride|
             ride.passenger.name
-        end
+        end.uniq
     end
 
     def rides

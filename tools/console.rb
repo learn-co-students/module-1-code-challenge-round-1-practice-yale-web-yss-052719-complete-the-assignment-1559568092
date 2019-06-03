@@ -15,5 +15,6 @@ r1 = Ride.new(d1, p1, 200)
 r2 = Ride.new(d1, p2, 50)
 r3 = Ride.new(d2, p1, 150)
 r4 = Ride.new(d1, p3, 500)
+r5 = Ride.new(d1, p1, 20)
 
 binding.pry
