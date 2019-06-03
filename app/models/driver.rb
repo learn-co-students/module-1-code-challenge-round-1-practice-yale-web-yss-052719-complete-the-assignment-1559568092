@@ -26,8 +26,8 @@ class Driver
     end
 
     def total_distance
-        # self.rides.reduce do |total_distance, ride|
-        #     total_distance + ride.distance
+        # total_distance = self.rides.inject do |sum, ride|
+        #     sum + ride.distance
         # end
         total_distance = 0
         self.rides.each do |ride|
