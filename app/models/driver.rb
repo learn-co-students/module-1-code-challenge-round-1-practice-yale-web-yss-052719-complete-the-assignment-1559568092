@@ -35,6 +35,14 @@ class Driver
 			driver.total_mileage > distance.to_f
 		end
 	end
+
+	def self.most_active
+		drivers = {}
+		self.all.each do |driver|
+			drivers[driver] = driver.rides.count
+		end
+		drivers.max_by {|driver, rides| rides}[0]
+	end
 end
 
 
